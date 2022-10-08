@@ -1,16 +1,16 @@
 
 export enum UserContentType {
 
-    Collaborations ,
+    Collaborations = 'collabs' ,
 
-    Everything  ,
+    Everything  = 'all' ,
 
-    Favorites ,
+    Favorites = 'favorites' ,
 
-    Comments ,
+    Comments = 'comments' ,
 
-    Rants ,
+    Rants = 'rants' ,
 
-    Likes
+    Likes = 'likes'
 
 }

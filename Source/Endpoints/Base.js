@@ -1,10 +1,13 @@
 
 
 export const domain
-     = 'https://devrant.com/api/devrant';
+     = 'https://devrant.com/api';
+
+export const images
+     = 'https://avatars.devrant.com';
 
 export const rants
-     = `${ domain }/rants`;
+     = `${ domain }/devrant/rants`;
 
 export const random
      = `${ rants }/surprise`;

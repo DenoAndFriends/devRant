@@ -2,7 +2,7 @@
 import { Post } from './Post.ts'
 
 
-export interface Rant extends Post {
+export interface Comment extends Post {
 
     body : string
 

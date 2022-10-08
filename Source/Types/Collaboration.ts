@@ -3,7 +3,7 @@ import { Image } from './Image.ts'
 import { Post } from './Post.ts'
 
 
-export interface Rant extends Post {
+export interface Collaboration extends Post {
 
     attached_image : '' | Image ,
 
@@ -11,9 +11,11 @@ export interface Rant extends Post {
 
     num_comments : number ,
 
-    special : bool ,
+    c_type_long : string ,
 
-    edited : bool ,
+    user_dpp : number ,
+
+    c_type : number ,
 
     tags : string [] ,
 
@@ -23,6 +25,6 @@ export interface Rant extends Post {
 
     rc : number ,
 
-    id : number
+    id : number ,
 
 }

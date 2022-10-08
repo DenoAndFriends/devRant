@@ -3,7 +3,7 @@ import { Avatar } from './Avatar.ts'
 import { Link } from './Link.ts'
 
 
-export interface Rant {
+export interface Post {
 
     created_time : number ,
 
@@ -14,8 +14,6 @@ export interface Rant {
     vote_state : number ,
 
     user_id : number ,
-
-    edited : bool ,
 
     links ? : Link [] ,
 
